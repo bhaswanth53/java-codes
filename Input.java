@@ -7,5 +7,6 @@ public class Input {
         System.out.println("Age is " + age);
         String name = scanner.nextLine();
         System.out.println("Name is " + name);
+        scanner.close();
     }
 }
